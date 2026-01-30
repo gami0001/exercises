@@ -59,7 +59,7 @@ button {
   position: absolute;
   top: 60%;
   left: 42%;
-  width: 200px; /* tilpas efter behov */
+  width: 200px;
   cursor: pointer;
   z-index: 10;
   animation-name: pulse_kf;
