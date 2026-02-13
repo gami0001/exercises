@@ -1,8 +1,8 @@
-let rabatPremium = 0.2;
+let discountPremium = 0.2;
 
 function calcPrice(price, isPremium) {
   if (isPremium) {
-    return price - price * rabatPremium;
+    return price - price * discountPremium;
   }
   return price;
 }
