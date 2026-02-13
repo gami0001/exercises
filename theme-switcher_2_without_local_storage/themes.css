@@ -1,0 +1,43 @@
+[data-theme="hawaii"] {
+    --bg: hotpink;
+
+    --header-col: black;
+    --main-col: black;
+    --footer-col: black;
+    --header-bg: yellow;
+    --main-bg: aqua;
+    --footer-bg: orangered;
+    --mozilla-link-col: orangered;
+
+
+}
+
+[data-theme="light"] {
+    --bg: beige;
+
+    --header-col: tan;
+    --main-col: tan;
+    --footer-col: tan;
+    --header-bg: oldlace;
+    --main-bg: oldlace;
+    --footer-bg: oldlace;
+    --mozilla-link-col: darkgrey;
+}
+
+[data-theme="dark"] {
+
+    --bg: rgb(27, 27, 27);
+
+    --header-col: aliceblue;
+    --main-col: aliceblue;
+    --footer-col: aliceblue;
+    --header-bg: rgb(0, 72, 0);
+    --main-bg: darkgreen;
+    --footer-bg: rgb(0, 72, 0);
+    --mozilla-link-col: orangered;
+}
+
+/* header {
+    background: var(--bg);
+    color: var(--color);
+} */
