@@ -1,0 +1,98 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+html {
+  font-family: "Figtree", sans-serif;
+}
+
+span {
+  cursor: pointer;
+}
+
+.figtree {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.clicktask {
+  display: block;
+  margin: 5px 0;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: black;
+  background-color: rgb(15, 14, 65);
+  cursor: pointer;
+  user-select: none;
+}
+
+.clicktask .task-text {
+  margin-left: 10px;
+  color: white;
+}
+
+.star-priority {
+  color: rgb(151, 149, 149);
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.star-priority.active {
+  color: gold;
+}
+
+.doneTask {
+  display: block;
+  margin: 5px 0;
+  text-decoration: line-through;
+  color: gray;
+  opacity: 0.6;
+}
+
+.to_do_section {
+  padding: 30px;
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.to_do_input h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 2rem;
+}
+
+.doing_header {
+  padding-top: 20px;
+}
+#done_header {
+  display: none;
+  padding-top: 20px;
+}
+
+.star-priority {
+  color: lightgray;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.star-priority:hover {
+  color: gold;
+}
+
+.star-priority.active {
+  color: gold;
+}
